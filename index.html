@@ -595,8 +595,8 @@
       </div>
     </footer>
     <!-- modal window -->
-    <div class="backdrop is-open">
-      <div class="modal">
+    <div class="backdrop is-open" id="backdrop">
+      <div class="modal" id="modal">
         <button
           class="modal-btn-close"
           type="button"
@@ -608,9 +608,9 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form" name="review-form">
-          <div class="modal-form-field">
+          <div class="modal-form-field" id="modal-form">
             <label class="modal-form-label" for="user_name">Name</label>
-            <div class="modal-form-wrapper">
+            <div class="modal-form-wrapper" id="modal-wrapper">
               <input
                 class="modal-form-input"
                 type="text"
@@ -626,9 +626,9 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-field">
+          <div class="modal-form-field" id="modal-form">
             <label class="modal-form-label" for="user_phone">Phone</label>
-            <div class="modal-form-wrapper">
+            <div class="modal-form-wrapper" id="modal-wrapper">
               <input
                 class="modal-form-input"
                 type="tel"
@@ -640,9 +640,9 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-field">
+          <div class="modal-form-field" id="modal-form">
             <label class="modal-form-label" for="user_email">Email</label>
-            <div class="modal-form-wrapper">
+            <div class="modal-form-wrapper" id="modal-wrapper">
               <input
                 class="modal-form-input"
                 type="email"
@@ -655,7 +655,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-field">
+          <div class="modal-form-field" id="modal-form">
             <label class="modal-form-label" for="user_comment">Comment</label>
             <textarea
               class="modal-form-comment"
@@ -667,7 +667,7 @@
               minlength="20"
             ></textarea>
           </div>
-          <div class="modal-form-agreement">
+          <div class="modal-form-agreement" id="modal-agreement">
             <input
               class="checkbox sr-only"
               type="checkbox"
