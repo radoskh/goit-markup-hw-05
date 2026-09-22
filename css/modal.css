@@ -119,7 +119,7 @@
 .modal-form {
 }
 .modal-form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-form-label {
   display: block;
@@ -237,10 +237,6 @@
 .modal-form-policy {
 }
 
-.modal-form-checkbox-icon {
-  color: #f4f4fd;
-  opacity: 0;
-}
 .modal-form-link {
 }
 
@@ -283,7 +279,7 @@
 }
 
 .modal-form-checkbox-icon {
-  color: #fff;
+  color: #f4f4fd;
   opacity: 0;
   transition: 300ms ease-out;
   transition-property: opacity;
