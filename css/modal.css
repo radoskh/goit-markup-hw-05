@@ -119,7 +119,7 @@
 .modal-form {
 }
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
@@ -149,6 +149,8 @@
   padding: 8px 38px;
   width: 100%;
   height: 40px;
+
+  background-color: #fcfcfc;
 
   font-family: "Roboto", sans-serif;
   font-weight: 400;
